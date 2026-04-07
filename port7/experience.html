@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon Parcours - Mehmet KILINC</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="page-loader"><div id="loader-bar"></div></div>
+  <nav class="navbar">
+    <ul>
+      <li class="status-indicator">
+        <span class="status-dot"></span>
+        <span>DISPONIBLE</span>
+      </li>
+      <li>
+        <button class="theme-toggle" onclick="toggleTheme()" aria-label="Changer de thème">🌓</button>
+      </li>
+      <li><a href="index.html">Bio</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="experience.html" class="active">Parcours</a></li>
+      <li><a href="veille.html">Veille</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <p class="subtitle">// PARCOURS PROFESSIONNEL</p>
+      <h1>Mon Parcours</h1>
+      <p class="hero-description">Stages et missions réalisés en entreprise au cours de mon cursus.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="timeline">
+        
+        <!-- 2026 : EDUCOEURDI -->
+        <div class="timeline-entry reveal" style="--timeline-accent-color: var(--primary-color); --timeline-accent-color-rgb: var(--primary-color-rgb);">
+          <div class="timeline-dot"></div>
+          <span class="timeline-date">JANVIER — FÉVRIER 2026 · 6 SEMAINES</span>
+          <div class="timeline-content">
+            <h2 style="margin-bottom: 0.25rem;">Association Educoeurdi — Clichy-sous-Bois</h2>
+            <p style="font-weight: 600; color: var(--primary-color); margin-bottom: 0.5rem;">Technicien informatique · Stage 2ème année</p>
+            <p style="color: var(--text-muted); margin-bottom: 1.5rem; font-size: 1rem; max-width: 800px;">
+              Clonezilla Server, masterisation PXE, reconditionnement matériel, gestion de stock, présence en ligne.
+            </p>
+            
+            <div class="card-img-container" style="width: 100%; max-width: none; height: auto; aspect-ratio: auto; border-radius: 8px; border: 1px solid var(--border-light); overflow: hidden;">
+              <img src="image/educoeurdi_stage_master.jpg" alt="Stage Educoeurdi" style="width: 100%; height: auto; object-fit: contain; display: block;">
+            </div>
+          </div>
+        </div>
+
+        <!-- 2025 : JEAN VERDIER -->
+        <div class="timeline-entry reveal" style="--timeline-accent-color: var(--primary-color); --timeline-accent-color-rgb: var(--primary-color-rgb);">
+          <div class="timeline-dot"></div>
+          <span class="timeline-date">MAI — JUILLET 2025 · 6 SEMAINES</span>
+          <div class="timeline-content">
+            <h2 style="margin-bottom: 0.25rem;">Hôpital Jean Verdier — Bondy</h2>
+            <p style="font-weight: 600; color: var(--primary-color); margin-bottom: 0.5rem;">Technicien informatique · Stage 1ère année</p>
+            <p style="color: var(--text-muted); margin-bottom: 1.5rem; font-size: 1rem; max-width: 800px;">
+              Administration vCenter, gestion des tickets GLPI, maintenance du parc et industrialisation des environnements de test.
+            </p>
+
+            <div class="card-img-container" style="width: 100%; max-width: 400px; height: auto; aspect-ratio: auto; border-radius: 8px; border: 1px solid var(--border-light); overflow: hidden;">
+              <img src="image/stage-Jean-Verdier-BG.jpg" alt="Mehmet en stage" style="width: 100%; height: auto; object-fit: contain; display: block;">
+            </div>
+          </div>
+        </div>
+
+        <!-- 2024-2026 : BTS SIO -->
+        <div class="timeline-entry reveal" style="--timeline-accent-color: var(--linkedin-blue); --timeline-accent-color-rgb: var(--linkedin-blue-rgb);">
+          <div class="timeline-dot"></div>
+          <span class="timeline-date">2024 — 2026</span>
+          <div class="timeline-content">
+            <h2>🎓 BTS SIO Option SISR</h2>
+            <div class="about-card" style="border-left: 4px solid var(--linkedin-blue);">
+              <p><strong>Lycée Louis Armand, Nogent-sur-Marne</strong></p>
+              <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem;">Formation aux métiers des services informatiques, spécialisation Infrastructure Systèmes et Réseaux.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2022 : BAC -->
+        <div class="timeline-entry reveal" style="--timeline-accent-color: var(--text-dim); --timeline-accent-color-rgb: var(--text-dim-rgb);">
+          <div class="timeline-dot"></div>
+          <span class="timeline-date">2022</span>
+          <div class="timeline-content">
+            <h2>📜 Baccalauréat Général</h2>
+            <div class="about-card" style="border-left: 4px solid var(--text-dim);">
+              <p><strong>Lycée Jean Renoir, Bondy</strong></p>
+              <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem;">Spécialités : Physique-Chimie, SVT, Mathématiques.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-socials">
+        <a href="https://github.com/memsbdn" target="_blank" aria-label="GitHub">
+          <svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/mehmet-kilinc-0072b2292" target="_blank" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.238 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+      </div>
+      <div class="footer-credits">
+        &copy; 2026 MEHMET KILINÇ // BTS SIO SISR // PROTOCOL: SECURE
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
