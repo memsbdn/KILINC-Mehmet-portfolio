@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projet PXE & Clonezilla - Mehmet KILINC</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="page-loader"><div id="loader-bar"></div></div>
+
+  <nav class="navbar">
+    <ul>
+      <li class="status-indicator"><span class="status-dot"></span><span>DISPONIBLE</span></li>
+      <li><button class="theme-toggle" onclick="toggleTheme()" aria-label="Changer de thème">🌓</button></li>
+      <li><a href="index.html">Bio</a></li>
+      <li><a href="projets.html" class="active">Projets</a></li>
+      <li><a href="experience.html">Parcours</a></li>
+      <li><a href="veille.html">Veille</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero" style="padding-bottom: 4rem;">
+    <div class="hero-content">
+      <p class="subtitle">// INFRASTRUCTURE & INDUSTRIALISATION</p>
+      <h1>Déploiement PXE & Clonezilla</h1>
+      <div class="availability-badge" style="background: rgba(16, 185, 129, 0.2); border-color: var(--primary-color);">
+        STATUS: // TERMINÉ
+      </div>
+      <p class="hero-description">Industrialisation du déploiement système sous environnement Linux Debian.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- SECTION 01: CONTEXTE -->
+    <section class="section reveal">
+      <div class="about-card" style="border-left: 4px solid var(--primary-color);">
+        <h2 style="font-size: 1.6rem; margin-bottom: 1.5rem; text-transform: none; letter-spacing: normal;">Contexte du Projet</h2>
+        <p style="font-size: 1.05rem; line-height: 1.7; color: var(--text-main);">
+          Lors de mon stage de 2ème année (<strong>Janvier — Février 2026 · 6 semaines</strong>) à l'association <strong>Educoeur</strong>, j'ai été chargé d'industrialiser la maintenance du parc informatique. L'objectif était de mettre en place un serveur <strong>Clonezilla Server</strong> permettant de déployer des images système via le réseau (PXE), réduisant ainsi drastiquement le temps d'intervention technique.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION 02: COMPÉTENCES -->
+    <section class="section reveal">
+      <div class="about-card" style="border-left: 4px solid var(--linkedin-blue);">
+        <h2 style="font-size: 1.6rem; margin-bottom: 1.5rem; text-transform: none; letter-spacing: normal;">Compétences Validées</h2>
+        <ul style="list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; color: var(--text-main); font-weight: 600; font-size: 1.05rem;">
+          <li>✓ Gérer le patrimoine informatique</li>
+          <li>✓ Répondre aux incidents et demandes</li>
+          <li>✓ Travailler en mode projet</li>
+          <li>✓ Mettre à disposition un service</li>
+          <li>✓ Développer la présence en ligne</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SECTION 03: PRÉSENCE EN LIGNE -->
+    <section class="section reveal">
+      <div class="about-card" style="border-left: 4px solid var(--malt-orange);">
+        <h2 style="font-size: 1.6rem; margin-bottom: 1.5rem; text-transform: none; letter-spacing: normal;">Développer sa présence en ligne</h2>
+        <p style="margin-bottom: 1.2rem; font-size: 1.05rem; line-height: 1.7; color: var(--text-main);">
+          Au début de ce projet, j'ai été chargé de trouver un freelance capable de mettre en place la solution Clonezilla Server. Pour cela, j'ai utilisé la plateforme <strong>Malt</strong>, un annuaire de freelances spécialisés en informatique, afin d'identifier des profils compétents en administration Linux et déploiement réseau.
+        </p>
+        <p style="margin-bottom: 2rem; font-size: 1.05rem; line-height: 1.7; color: var(--text-main);">
+          Cette démarche m'a permis de comprendre comment exprimer un besoin technique auprès de prestataires externes et de me familiariser avec les espaces professionnels en ligne. Finalement, après étude des profils et des coûts, nous avons opté pour une réalisation en interne.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION 04: GANTT -->
+    <section class="section reveal">
+      <div class="about-card" style="border-left: 4px solid #8b5cf6;">
+        <h2 style="font-size: 1.6rem; margin-bottom: 1.5rem; text-transform: none; letter-spacing: normal;">Planification du Projet</h2>
+        <div class="gantt-grid" style="margin-top: 1.5rem;">
+          <div class="gantt-header-cell">PHASES</div>
+          <div class="gantt-header-cell">S1</div><div class="gantt-header-cell">S2</div><div class="gantt-header-cell">S3</div><div class="gantt-header-cell">S4</div><div class="gantt-header-cell">S5</div><div class="gantt-header-cell">S6</div>
+          <div class="gantt-row-title">Analyse des besoins</div><div class="gantt-bar" style="grid-column: 2/3;">S1</div><div></div><div></div><div></div><div></div><div></div>
+          <div class="gantt-row-title">Installation serveur</div><div></div><div class="gantt-bar" style="grid-column: 3/4;">S2</div><div></div><div></div><div></div><div></div>
+          <div class="gantt-row-title">Config réseau PXE</div><div></div><div></div><div class="gantt-bar" style="grid-column: 4/5;">S3</div><div></div><div></div><div></div>
+          <div class="gantt-row-title">Création des images</div><div></div><div></div><div></div><div class="gantt-bar" style="grid-column: 5/6;">S4</div><div></div><div></div>
+          <div class="gantt-row-title">Tests & validation</div><div></div><div></div><div></div><div></div><div class="gantt-bar" style="grid-column: 6/7;">S5</div><div></div>
+          <div class="gantt-row-title">Rédaction procédures</div><div></div><div></div><div></div><div></div><div></div><div class="gantt-bar" style="grid-column: 7/8;">S6</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 05: CAPTURES -->
+    <section class="section reveal">
+      <div class="about-card" style="border-left: 4px solid #06b6d4;">
+        <h2 style="font-size: 1.6rem; margin-bottom: 1.5rem; text-transform: none; letter-spacing: normal;">Captures d'écran</h2>
+        <div class="grid screenshot-grid">
+          <div class="card" style="cursor: default;">
+            <div class="card-img-container screenshot-mode"><img src="image/clonezilla_interface.webp" alt="Interface Clonezilla"></div>
+          </div>
+          <div class="card" style="cursor: default;">
+            <div class="card-img-container screenshot-mode"><img src="image/clonezilla_serveur.webp" alt="Configuration Serveur Clonezilla"></div>
+          </div>
+          <div class="card" style="cursor: default;">
+            <div class="card-img-container screenshot-mode"><img src="image/clonezilla_pxe.webp" alt="Boot PXE Clonezilla"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 06: PROCÉDURES -->
+    <section class="section reveal">
+      <div class="about-card" style="border-left: 4px solid #f59e0b;">
+        <h2 style="font-size: 1.6rem; margin-bottom: 1.5rem; text-transform: none; letter-spacing: normal;">Procédures Techniques</h2>
+        <p style="margin-bottom: 2rem; font-size: 1.05rem; color: var(--text-main);">Cliquez sur un bouton pour télécharger la procédure complète :</p>
+        <div class="download-grid">
+          <a href="image/Procédure_GRBL_Installation_Clonezilla_Server.pdf" class="download-card" target="_blank">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg>
+            </div>
+            <div class="text"><strong>Installation Clonezilla</strong><br><small>Configuration Serveur</small></div>
+          </a>
+          <a href="image/Procédure_Création_Master_Windows11.pdf" class="download-card" target="_blank">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+            </div>
+            <div class="text"><strong>Master Windows 11</strong><br><small>Création d'image</small></div>
+          </a>
+          <a href="image/Procédure_Restauration_Image_Poste.pdf" class="download-card" target="_blank">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path><polyline points="3 3 3 8 8 8"></polyline></svg>
+            </div>
+            <div class="text"><strong>Restauration Poste</strong><br><small>Procédure finale</small></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOUTON RETOUR -->
+    <section class="section reveal">
+      <div style="text-align: center; margin-top: 2rem;">
+        <a href="projets.html" class="btn btn-blue">← Retour aux projets</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- SCROLL TO TOP BUTTON -->
+  <button class="scroll-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+  <script src="script.js"></script>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-socials">
+        <a href="https://github.com/memsbdn" target="_blank" aria-label="GitHub">
+          <svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/mehmet-kilinc-0072b2292" target="_blank" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.238 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+      </div>
+      <div class="footer-credits">
+        &copy; 2026 MEHMET KILINÇ // BTS SIO SISR // PROTOCOL: SECURE
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

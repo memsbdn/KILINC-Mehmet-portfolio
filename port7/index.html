@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Mehmet KILINC - BTS SIO SISR</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="page-loader"><div id="loader-bar"></div></div>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <ul>
+      <li class="status-indicator">
+        <span class="status-dot"></span>
+        <span>DISPONIBLE</span>
+      </li>
+      <li>
+        <button class="theme-toggle" onclick="toggleTheme()" aria-label="Changer de thème">🌓</button>
+      </li>
+      <li><a href="index.html" class="active">Bio</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="experience.html">Parcours</a></li>
+      <li><a href="veille.html">Veille</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ACCUEIL -->
+  <header id="accueil" class="hero">
+    <div class="hero-content">
+      <p class="subtitle">// BTS SIO — OPTION SISR · 2ème ANNÉE</p>
+      <h1>Mehmet KILINC</h1>
+      <p class="hero-description">Technicien Réseau &amp; Infrastructure · Promotion 2026</p>
+      
+      <div class="availability-badge">
+        <div class="dot"></div>
+        Disponible pour une Licence Pro ASSR ou une alternance dès 2026.
+      </div>
+
+      <div class="hero-actions">
+        <a href="contact.html" class="btn btn-green">Me contacter</a>
+        <a href="image/2026-2027_CV_KILINC.pdf  " class="btn btn-blue" target="_blank">Télécharger CV</a>
+        <a href="https://www.linkedin.com/in/mehmet-kilinc-0072b2292" class="btn btn-blue" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ZONE CONTENU -->
+  <main>
+    
+    <!-- À PROPOS DE MOI -->
+  <section id="presentation" class="section reveal">
+      <div class="about-card" style="max-width: 900px; margin: 0 auto 2rem auto; border-left: 4px solid var(--primary-color);">
+        <h2 style="margin-bottom: 2.5rem;">À propos de moi</h2>
+        <p style="font-size: 1rem; line-height: 1.6; color: var(--text-muted);">
+          Actuellement en <strong>BTS SIO option SISR au Lycée Louis Armand</strong> de Nogent-sur-Marne, je m'investis dans l'administration et la sécurisation des infrastructures. Mon parcours a été marqué par deux stages enrichissants à l'<strong>Hôpital Jean Verdier</strong> (Bondy) et à l'association <strong>Educoeur</strong> (Clichy-sous-Bois), qui m'ont permis de mettre mes compétences en pratique en environnement professionnel réel.
+        </p>
+        <p style="font-size: 1rem; line-height: 1.6; margin-top: 1.2rem; color: var(--text-muted);">
+          Je souhaite désormais poursuivre mon cursus en <strong>Licence Professionnelle Administration et Sécurité des Systèmes et des Réseaux</strong>. Mon objectif est de me préparer aux métiers d'administrateur systèmes et réseaux en acquérant une solide expérience pratique au sein d'une infrastructure d'envergure.
+        </p>
+      </div>
+
+    <div class="about-card" style="max-width: 900px; margin: 0 auto 2rem auto; border-left: 4px solid var(--linkedin-blue);">
+      <h2 style="margin-bottom: 2.5rem;">Compétences</h2>
+      
+      <!-- BARRES DE PROGRESSION -->
+      <div class="skills-grid-bars">
+        <div class="skill-bar-item">
+          <div class="skill-bar-info"><span>Administration Linux</span><span>80%</span></div>
+          <div class="progress-bg"><div class="progress-fill" data-width="80%"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-info"><span>Support / GLPI</span><span>85%</span></div>
+          <div class="progress-bg"><div class="progress-fill" data-width="85%"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-info"><span>Réseaux / Switching Cisco</span><span>75%</span></div>
+          <div class="progress-bg"><div class="progress-fill" data-width="75%"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-info"><span>Virtualisation (Proxmox/VMware)</span><span>75%</span></div>
+          <div class="progress-bg"><div class="progress-fill" data-width="75%"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-info"><span>Windows Server / AD</span><span>70%</span></div>
+          <div class="progress-bg"><div class="progress-fill" data-width="70%"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-info"><span>Cybersécurité (Stormshield)</span><span>65%</span></div>
+          <div class="progress-bg"><div class="progress-fill" data-width="65%"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-card" style="max-width: 900px; margin: 0 auto 2rem auto; border-left: 4px solid var(--malt-orange);">
+      <!-- STACK TECHNIQUE DÉTAILLÉE -->
+      <h2 style="margin-bottom: 2.5rem;">Stack technique</h2>
+
+      <div class="stack-grid">
+        <div class="stack-item">
+          <h4>🖥️ Systèmes d'exploitation</h4>
+          <p>Administration multi-OS physiques et virtuels.</p>
+          <div class="stack-tags">
+            <span class="mini-bulle">Debian/Ubuntu</span><span class="mini-bulle">Linux</span>
+            <span class="mini-bulle">Windows Server</span><span class="mini-bulle">MacOS</span>
+          </div>
+        </div>
+
+        <div class="stack-item">
+          <h4>🌐 Réseaux & Protocoles</h4>
+          <p>Configuration et administration d'architectures réseau.</p>
+          <div class="stack-tags">
+            <span class="mini-bulle">Switching/Routing Cisco</span><span class="mini-bulle">VLAN</span>
+            <span class="mini-bulle">DHCP·DNS·SSH</span><span class="mini-bulle">TCP/IP</span>
+          </div>
+        </div>
+
+        <div class="stack-item">
+          <h4>🔒 Cybersécurité</h4>
+          <p>Sécurisation des infrastructures et conformité RGPD.</p>
+          <div class="stack-tags">
+            <span class="mini-bulle">Stormshield</span><span class="mini-bulle">OSINT</span>
+            <span class="mini-bulle">Chiffrement</span><span class="mini-bulle">RGPD</span>
+          </div>
+        </div>
+
+        <div class="stack-item">
+          <h4>📦 Virtualisation</h4>
+          <p>Déploiement et gestion d'environnements virtualisés.</p>
+          <div class="stack-tags">
+            <span class="mini-bulle">Proxmox</span><span class="mini-bulle">VMware</span>
+            <span class="mini-bulle">VirtualBox</span><span class="mini-bulle">Clonezilla</span>
+          </div>
+        </div>
+
+        <div class="stack-item">
+          <h4>🛠️ Support & Parc</h4>
+          <p>Assistance utilisateurs et administration du parc.</p>
+          <div class="stack-tags">
+            <span class="mini-bulle">GLPI</span><span class="mini-bulle">Masterisation</span>
+            <span class="mini-bulle">Reconditionnement</span>
+          </div>
+        </div>
+
+        <div class="stack-item">
+          <h4>⚙️ Services réseau</h4>
+          <p>Déploiement et configuration des services d'infrastructure.</p>
+          <div class="stack-tags">
+            <span class="mini-bulle">DHCP·DNS·SSH</span><span class="mini-bulle">Windows Server</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- PROJETS & EXPÉRIENCES CLÉS (BENTO) -->
+    <section id="projets-experiences" class="section reveal">
+      <h2 style="margin-bottom: 3.5rem;">Projets & Expériences clés</h2>
+      <div class="grid">
+        
+        <a href="projet-pxe.html" class="projet">
+          <div class="card-img-container">
+            <img src="image/Clonezilla.png" alt="Déploiement Clonezilla" onerror="this.style.display='none'">
+          </div>
+          <div class="projet-content">
+            <span class="tag">Association — JANVIER / FÉVRIER 2026 (6 sem.)</span>
+            <h3>Déploiement PXE & Clonezilla</h3>
+            <p>Optimisation de la masterisation et du déploiement de postes clients via le réseau.</p>
+            <span class="btn-link">Consulter le projet →</span>
+          </div>
+        </a>
+
+        <a href="projet-vcenter.html" class="projet">
+          <div class="card-img-container">
+             <img src="image/vmware-vcenter-interface.png" alt="Infrastructure vCenter">
+          </div>
+          <div class="projet-content">
+            <span class="tag">Hôpital — MAI / JUILLET 2025 (6 sem.)</span>
+            <h3>Infrastructure vCenter</h3>
+            <p>Mise en place d'une infrastructure de virtualisation pour les environnements de test.</p>
+            <span class="btn-link">Consulter le projet →</span>
+          </div>
+        </a>
+
+        <a href="projet-adcs.html" class="projet">
+          <div class="card-img-container">
+            <img src="image/stormshield.jpg" alt="Sécurité">
+          </div>
+          <div class="projet-content">
+            <span class="tag">Cybersécurité</span>
+            <h3>Mise en place ADCS</h3>
+            <p>Déploiement d'une infrastructure PKI pour la gestion des certificats numériques.</p>
+            <span class="btn-link">Consulter le projet →</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+  </main>
+
+  <button class="scroll-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+<footer>
+  <div class="footer-content">
+    <div class="footer-socials">
+      <a href="https://github.com/memsbdn" target="_blank" aria-label="GitHub">
+        <svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/mehmet-kilinc-0072b2292" target="_blank" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.238 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+      </a>
+    </div>
+    <div class="footer-credits">
+      &copy; 2026 MEHMET KILINÇ // BTS SIO SISR // PROTOCOL: SECURE
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
